@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8000ffb5;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resumo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+div span {
+    font-weight: bold;
+}
+
+div.novoItem {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divDesc,
+.divValor,
+.divTipo {
+    flex: 1;
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.columnTipo {
+    text-transform: capitalize;
+}
+
+.columnAcao button {
+    background-color: rgb(221, 255, 0)(255, 247, 0);
+}
